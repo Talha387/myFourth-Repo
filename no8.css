@@ -1,0 +1,12 @@
+.picture{background-image: url(../../imagefolder/img3.jpg);width: 500px;height: 500px;margin: 50px auto;background-size: cover;background-position: center center;position: relative;}
+
+.picture:before{background: green;width: 250px;height: 500px;content: '';display: block;clear: both;position: absolute;top: 0;left: 0;transition: 2s;}
+.picture:after{background: green;width: 250px;height: 500px;content: '';display: block;clear: both;position: absolute;top: 0;right: 0;transition: 2s;}
+.picture:hover:before{left: -250px;transform: rotateY(180deg);background: #6CB9F6;}
+.picture:hover:after{right: -250px;transform: rotateY(180deg);background: #6CB9F6;}
+
+
+
+
+
+

@@ -1,0 +1,75 @@
+body{margin: 0;padding: 0;font-family: Arial, Helvetica, sans-serif;}
+.logo_area img{width:200px;    margin-top: -53px;}
+.header_area{height: 88px;background:#3B5997 ;}
+.middle_area{width: 85%;margin: auto;padding: 17px 0;}
+.login_area{width: 70%;float: left;}
+.logo_area{width: 30%;float: left;}
+.header_area:after{
+content: '';
+display: block;
+clear: both;}
+.login_first{float: left;}
+.login_second{float: left;}
+.login_submit{float: left;}
+.my_login:after{content:'';
+display: block;
+clear: both;}
+.login_area form{float: right;}
+.login_area input{display: block;margin-right: 10px;font-size: 16px;border: 1px solid #1d2a5b;}
+.login_area label{color: #fff;font-size: 15px;font-family: Arial, Helvetica, sans-serif;cursor: pointer;margin-bottom: 6px;display: block;}
+.login_second a{color: #9cb4d8;}
+a{text-decoration: none;}
+a:hover{text-decoration: underline;}
+.login_submit input{background: #4267b2;border: 1px solid #4267b2;color: #fff;margin-top: 20px;cursor: pointer;transition: .5s;border-radius: 3px;}
+.login_submit input:hover{background: #365899;border: 1px solid #365899;}
+
+/* signup area style start here */
+
+.signUp_left{width:500px;}
+.signUp_left img{width:100%;width: 90%;margin-top: -178px;/*! margin-right: -800px; *//*! margin-left: -503px; */float: left;/*! height: 580px; */}
+
+.signUp_left{width: 60%;float: left;margin-left: -399px;}
+.signUp_right{width: 40%;float: left;/*! padding: -1px; *//*! padding: 4px 16px; */margin-left: 35px;}
+
+.signUp_area{background: linear-gradient(#ffffff,#D4D9E8);}
+.signUp_area:after{content:'';
+display: block;
+clear: both;}
+.signUp_left p{color: #0E385F;font-size:20px;font-weight: bold;width: 70%;margin-left: 50px;}
+.signUp_right h2{color: #333333;font-size: 35px;margin-bottom: 5px;}
+.signUp_right > p{color: #333;font-size: 20px;margin: 10px 0;}
+.signUp_right input[type=text],.signUp_right input[type=password]{
+    width:100%;font-size: 17px;padding: 6px;margin: 5px 0;border-radius: 3px;border:1px solid #bdc7d8;
+    box-sizing: border-box;
+}
+.signUp_right .username:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.signUp_right .username input:nth-child(1){width: 49%;float: left;}
+.signUp_right .username input:nth-child(2){width: 49%;float: right;}
+.birthday h3{color: #333;
+font-size: 20px;margin: 5px 0;font-weight: normal;}
+.my_option select{padding: 7px;
+    font-size: 13px;
+    border: 1px solid #bdc7d8;}
+.birthday:after{content: '';
+display: block;
+clear: both;}
+.my_option{float: left;margin-right: 8px;}
+.text_link {float: left;width: 160px;}
+.text_link a{color: #365899;font-size: 14px;}
+.gender label{color: #333;cursor: pointer;font-size: 20px;margin-top: 10px;display: inline-block;}
+
+p.policy{font-size: 12px;color: #777;width: 76%;}
+p.policy a{color: #365899;}
+.signUp_right input[type="submit"]{background:linear-gradient(#67ae55,#578843) ;padding: 10px 40px;font-size: 18px;color: #fff;border-color: #3b6e22 #3b6e22 #2c5115;
+box-shadow: inset 0 1px 1px #a4e388;border-radius: 5px;cursor: pointer;}
+.signUp_right input[type="submit"]:hover{background:linear-gradient(#578843,#67ae55) ;}
+#my_headding4{color: #666;font-size: 13px;}
+#my_headding4 a{color: #365899;}
+
+
+
+

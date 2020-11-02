@@ -1,0 +1,12 @@
+body{background-image: url(/imagefolder/no2.jpg);background-size: cover;}
+.no1_div{width:400px;background:rgb(7 36 36 / 73%);margin:100px auto;padding: 30px ;}
+.no1_div input{display:block;width:100%;padding: 5px 0px;display: block;font-size: 22px;border: 2px solid rgb(208, 223, 73);background: transparent;color: wheat;border-radius: 5px;  margin-top: 7px; margin-bottom: 7px;}
+.no1_div {color: #CDDC39;border: 1px solid black;border-radius: 10px;font-size: 20px;font-family: tahoma;}
+.no1_div input[type=submit]{width:250px;margin: 20px auto;cursor: pointer;border-radius: 14px;background: #00bcd494;border: 2px solid #3e5469;}
+.no1_div p{color:white;font-size: 20px;font-family: tahoma;}
+.no1_div p a{color:#FF9800;}
+
+
+
+
+

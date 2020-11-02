@@ -1,0 +1,71 @@
+body{margin:0;padding:0;}
+.header{background:#34495e;}
+.logo {width:100px;margin: auto;}
+.logo img{width:100px;}
+.div_content{width:72%;float: left;margin-right: 3%;}
+aside{width:25%;overflow: hidden;color:#204986;font-family: arial;font-size: 17px; }
+article h2{color:rgb(32, 173, 19);font-family:Tahoma;}
+.main_section{width:92%;margin:auto;}
+article p{color:#070f1b;font-family: arial;font-size: 17px;}
+aside h2{color:rgb(216, 152, 33)}
+footer p{font-family: arial black;font-size: 17px;text-align: center;background: darkgray;padding: 13px;}
+.color{margin-top: 40px;margin-bottom: 80px;}
+.box{background: yellowgreen;width:220px;height:220px;float:left;transition-duration: 0.8s;}
+.box:hover{background:black;width:260px;height: 260px;}
+.second_box{background: gold;width:220px;height:220px;overflow: hidden;transition:  0.8s;float:left;}
+.second_box:hover{background: red;width:260px;height: 260px;}
+.third{background:greenyellow;width:220px;height:220px;transition-duration: 0.8s;overflow: hidden;float: left;}
+.third:hover{background:deepskyblue;width:260px;height: 260px;}
+.fourth{background:rgb(47, 255, 210);width:220px;height:220px;transition-duration: 0.8s;overflow: hidden;}
+.fourth:hover{background:rgb(151, 113, 182);width:260px;height: 260px;}
+.box_two{width: 500px;height: 500px;background: red;margin: auto;position: relative;margin-bottom: 250px;}
+.miniBox{width: 100px;height: 100px;background: rgb(0, 0, 0);border-radius: 50%;position: absolute;top: 0px;right: 0px;}
+
+/* margin ba padding kaj na korle display:block korte hoy ,kunu div k middle a ante hole width takte hobe display:block takte hobe tarpor margin:auto dilei hoye jabe*/
+
+.main_menu{background: #ffbf00b8;margin-bottom: 400px;}
+.main_menu ul{margin: 0px;list-style: none;padding: 0px;}
+.main_menu ul:after{
+    content: '';
+    display: block;
+    clear:both;
+}
+.main_menu ul li{float: left;position: relative;}
+.main_menu ul li a{color: black;font-size: 20px;text-decoration: none;padding: 10px 20px;display: block;font-family: tahoma;}
+.main_menu ul li a:hover {background: #9E9E9E;}
+.main_menu ul ul li{float:none;}
+.main_menu ul ul{position: absolute;top:100%;left:0;background: rgb(66, 66, 95);width: 210px;display: none;}
+.main_menu ul ul li a{color: rgb(216, 152, 33);}
+.main_menu ul ul li a:hover{background:black;}
+.main_menu ul li:hover> ul{display: block;}
+.main_menu ul ul ul{background:rgb(72, 87, 50);position: absolute;top: 0;left: 100%;width: 310px;}
+
+/* menubar er responsive design */
+@media all and (max-width:690px){
+.main_menu ul li a{font-size: 5px;padding: 2px 4px}
+.main_menu ul ul{width: 55px;}
+.main_menu ul ul ul{width: 77px;}
+}
+@media all and (max-width:770px){
+.main_menu ul li a{font-size: 10px;padding: 6px 9px}
+.main_menu ul ul{width: 106px;}.main_menu ul ul ul{width: 140px;}
+}
+@media all and (max-width:300px){
+.main_menu ul li {float: none;}.main_menu ul li a{font-size: 5px;padding: 3px 6px}
+.main_menu ul ul{width: 100%;display: block;position: inherit;left: 0;}
+.main_menu ul ul ul{width: 100%;display: block;position: inherit;left: 0;}
+.main_menu ul ul ul ul{width: 100%;display: block;position: inherit;left: 0;}
+.main_menu ul ul ul ul ul{width: 100%;display: block;position: inherit;left: 0;}
+}
+.my_thirdBox{width: 300px;height: 300px;background: url(/imagefolder/img3.jpg);margin: auto;background-size: cover;position: relative;margin-bottom: 100px;}
+.some_text{border: 2px solid yellow;width: 220px;height: 234px;margin: auto;position: absolute;top: 0;left: 0;right: 0;bottom: 0;padding: 7px;opacity: 0;transition: 1s;}
+.some_text h2{color: ivory;}
+.some_text p{color: rgb(0, 255, 42);}
+.my_thirdBox:hover .some_text{opacity: 1;}
+  
+.my_seventhDiv{width: 640px;height: 250px;margin: 10px;background-image: url(/imagefolder/no3.jpg);background-size: cover;background-position:left top;transition: 1.2s;float: left;border: 3px solid orange;}
+.my_seventhDiv:hover{background-position: bottom left;}
+.my_eightDiv{width: 640px;height: 250px;margin: 10px;background-image: url(/imagefolder/no4.jpg);background-size: cover;background-position:left top;transition: 1.2s;float: left;border: 3px solid orange;}
+.my_eightDiv:hover{background-position: bottom left;}
+
+

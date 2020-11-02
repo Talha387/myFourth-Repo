@@ -1,0 +1,11 @@
+body{margin: 0;padding: 0;}
+.triangle{width: 0px;height: 0px;border-bottom: 230px solid greenyellow;border-left: 1349px solid transparent;border-right: 0px solid transparent;}
+#service_area{background: greenyellow;height: 270px;}
+
+#service_area h2{margin: 0;text-align: center;font-size: 30px;font-family: tahoma;}
+
+/* Tribuj banano hoyeche */
+
+/* .triangle_no_two{width: 0px;height: 0px;border-bottom: 230px solid greenyellow;border-left: 230px solid transparent;border-right: 230px solid transparent;margin-top: 300px;margin-bottom: 300px;} */
+
+.triangle_no_two{width: 0px;height: 0px;border-bottom: 230px solid transparent;border-left: 230px solid ;border-right: 230px solid ;margin-top: 300px;margin-bottom: 300px;}

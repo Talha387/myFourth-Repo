@@ -1,0 +1,28 @@
+.my_third_Box{width: 200px;height: 200px;background: rgb(150, 173, 47);position: absolute;animation: myanimat 3s infinite linear;
+
+}
+
+@keyframes myanimat{
+
+    0%{top: 0;
+    left: 0;
+transform: rotate(100deg);}
+
+    25%{top: 100px;
+        left: 0px;
+    transform: scale(1.4)rotateX(40deg);
+    background: rgb(153, 255, 0);}
+
+    50%{top: 50px;
+    left: 500px;
+    transform: scale(.5)rotateY(40deg);
+    background: rgb(7, 124, 17);}
+
+    75%{top: 220px;
+    left: 800px;
+    transform: scale(2.4)rotate(140deg);
+    background: rgb(21, 255, 0);}
+
+    100%{top: 500px;
+    left: 0px;}
+}
